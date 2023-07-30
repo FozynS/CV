@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DanyloShvydkiy</title>
+    <title>Danylo Shvydkiy</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,38 +16,75 @@
 
         <div class="section__nav_container">
 
-            <div class="section__nav_info">
-                <a href="#">About Me</a>
-            </div>
+            <div class="section__nav_info-container">
+                <div class="section__nav_info">
+                    <a href="#">About Me</a>
+                </div>
 
-            <div class="section__nav_info">
-                <a href="#">Potfolio</a>
-            </div>
+                <div class="section__nav_info">
+                    <a href="#">Potfolio</a>
+                </div>
 
-            <div class="section__nav_info">
-                <a href="#">Contact</a>
+                <div class="section__nav_info">
+                    <a href="#">Contact</a>
+                </div>
             </div>
 
             <div class="section__nav_photo">
                 <img src="image/Photo.jpeg" alt="My Photo" class="section__nav_photo-img">
             </div>
 
-            <div class="section__nav_about">
-                <div class="section__nav_about-title">Front-End Developer</div>
-                <h1>Danylo Shvydkiy</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque perspiciatis voluptate iusto et! Sed voluptates minus nam quisquam ex dolores dignissimos at! Expedita qui tempora reprehenderit ipsam inventore tempore ex.</p>
-                <button class="section__nav_about-btn"></button>
-            </div>
+            <article class="section__nav_about-container">
+                <div class="section__nav_about">
+                    <div class="section__nav_about-title-container">
+                        <div class="section__nav_about-title">Front-End Developer</div>
+                    </div>
+                    <h1 class="section__nav_about-name">Danylo Shvydkiy</h1>
+                    <p class="section__nav_about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque perspiciatis voluptate iusto et! Sed voluptates minus nam quisquam ex dolores dignissimos at! Expedita qui tempora reprehenderit ipsam inventore tempore ex...</p>
+                        
+                            <div class="section__nav_about-btn-plus">
+                                <!-- <button class="section__nav_about-btn">
+                                </button> -->
+                            </div>
+                        
+                </div>
+            </article>
 
-            <div class="section__nav_potfolio">
-                <div class="section__nav_arrow"></div>
-                <a href="#">Potfolio</a>
-            </div>
+            <div class="section__nav_two-blocks">
 
-            <div class="section__nav_cv">
-                <div class="section__nav_arrow"></div>
-                <a href="#">CV</a>
-            </div>
+                <div class="section__nav_portfolio-container">
+                    <a class="section__nav_portfolio" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="section__nav_potfolio-arrow"
+                            width="120" 
+                            height="18" 
+                            viewBox="0 0 120 18" 
+                            fill="none" >
+                            <path d="M120 9L105 0.339746V17.6603L120 9ZM0 10.5H106.5V7.5H0V10.5Z" fill="white"/>
+                        </svg>
+
+                        <h2>Portfolio</h2>
+                    </a>
+                        
+                </div>
+
+                <div class="section__nav_cv-container">
+                    <a class="section__nav_cv" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="section__nav_cv-arrow"
+                            width="46" 
+                            height="18" 
+                            viewBox="0 0 46 18" 
+                            fill="none" >
+                            <path d="M46 9L31 0.339746V17.6603L46 9ZM0 10.5H32.5V7.5H0V10.5Z" fill="white"/>
+                        </svg>
+
+                        <h2>CV</h2>
+                    </a>
+                </div> 
+            </div>  
+
+            
 
         </div>
 
