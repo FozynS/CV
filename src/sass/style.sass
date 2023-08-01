@@ -72,10 +72,8 @@ body
         height: 460px
         position: relative
         overflow: hidden
-        left: 30px
-        right: 30px
+        margin-left: 30px
         bottom: 120px
-        margin: 0 
     &-title-container
         background-color: #FFCA43
         border-radius: 25px
@@ -282,3 +280,211 @@ body
         font-weight: 400
         line-height: 40px
         text-transform: capitalize 
+
+
+.section__experience
+    margin-top: 105px
+    padding-left: 30px
+    display: flex
+    flex-wrap: wrap
+    align-items: flex-end
+    width: 100%
+    height: 1125px
+    &_hackaton
+        width: 1125px
+        height: 470px
+        background-color: #FFC701
+        border-radius: 30px
+        margin-right: 7px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        padding-left: 50px
+        &-description
+            display: flex
+            justify-content: space-between
+            align-items: end
+        &-title
+            width: 338px
+            height: 110px
+            color: #7841FF
+            font-size: 48px
+            font-style: normal
+            font-weight: 400
+            line-height: normal
+            text-transform: capitalize
+            span
+                color: #7841FF
+                font-size: 48px
+                font-style: normal
+                font-weight: 600
+                line-height: normal
+                text-transform: capitalize
+        &-text
+            width: 350px
+            color: #7841FF
+            font-size: 20px
+            font-style: normal
+            font-weight: 400
+            line-height: normal
+    &_case
+        width: 330px
+        height: 320px
+        background-color: #2E2D2E
+        border-radius: 30px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        padding-left: 50px
+        &-text
+            color: #FFC701
+            font-size: 20px
+            font-style: normal
+            font-weight: 400
+            line-height: normal
+            text-transform: capitalize
+        &-btn-plus
+            display: inline-block
+            width: 70px
+            height: 70px
+            background: linear-gradient(#FFCA43,#FFCA43), linear-gradient(#FFCA43,#FFCA43)
+            background-position: center
+            background-size: 50% 1px,1px 50%; //*thickness = 2px, length = 50% (25px)*/
+            background-repeat: no-repeat
+            border: 1px #FFCA43 solid
+            border-radius: 9999px
+    &_shogushi
+        width: 790px
+        height: 320px
+        background-color: #7841FF
+        border-radius: 30px
+        margin-right: 7px
+        margin-top: 7px
+        display: flex
+        flex-direction: column-reverse
+        justify-content: space-around
+        padding-left: 50px
+        &-title
+            color: #FFF
+            font-size: 48px
+            font-style: normal
+            font-weight: 400
+            line-height: normal
+            width: 400px
+            span
+                color: #FFF
+                font-size: 48px
+                font-style: normal
+                font-weight: 600
+                line-height: normal
+    &_other1
+        width: 340px
+        height: 320px
+        background-color: #FF607C
+        border-radius: 30px
+        margin-right: 7px
+        margin-top: 7px
+        margin-left: 325px
+        display: flex
+        justify-content: center
+        align-items: end
+        padding-bottom: 50px
+        &-text
+            width: 180px
+            color: #FFF
+            font-size: 20px
+            font-style: normal
+            font-weight: 400
+            line-height: normal
+    &_other2
+        width: 340px
+        height: 320px
+        background-color: #FFF
+        border-radius: 30px
+        margin-top: 7px
+        margin-left: 325px
+        display: flex
+        justify-content: center
+        align-items: end
+        padding-bottom: 50px
+        &-text
+            width: 190px
+            color: #FF607C
+            font-size: 20px
+            font-style: normal
+            font-weight: 400
+            line-height: normal
+
+
+.section__contact
+    margin-top: 50px
+    padding-left: 30px
+    padding-right: 30px
+.section__contact_list
+    height: 182px
+    margin-bottom: 10px
+    padding: 0 50px
+.section__contact_list-links
+    text-decoration: none
+    color: #FFF
+    font-size: 42px
+    font-style: normal
+    font-weight: 500
+    line-height: normal
+    width: 100%
+    height: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+.medium-rectangle 
+    width: 20px
+    height: 20px
+    transform: rotate(45deg)
+    background-color: #FFF
+    position: relative
+
+.hide
+    display: none
+.show
+
+.stick
+    font-size: 13em //* задает размер иконки */
+    width: 0.35em
+    height: 0.35em
+    margin-bottom: 20px
+    border: 0.07em solid #000
+    position: relative
+    border-radius: 50%
+    /* z-index: 3; */
+    box-shadow: 0 5px 10px black
+.stick:before
+    content: ""
+    width: 0.2em 
+    height: 0.2em
+    position: absolute 
+    right: -0.22em
+    bottom: -0em
+    background: black
+    /* z-index: 1; */
+    box-shadow: 0 5px 10px black
+.stick:after
+    content: ""
+    width: 1.2em 
+    height: 0.33em
+    position: absolute 
+    right: -1.3em
+    bottom: -0.06em
+    background: black
+    border-radius: 20px
+    /* z-index: 2; */
+    box-shadow: 0 5px 10px black
+.text
+    color: #7841FF
+    font-size: 28px
+    position: relative
+    z-index: 4
+    margin: 6px 110px 0
+.hack
+    margin: 6px 102px 0
+    color: #FFC701
