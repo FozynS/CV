@@ -5,15 +5,90 @@
     box-sizing: border-box
 
 html 
-    // overflow-x: hidden
-    // overflow-y: scroll
+    scroll-behavior: smooth
 body
     font-family: 'Poppins', sans-serif
     display: block
     background-color: #121113
-    // overflow: hidden
     overflow-x: hidden  //* отключает горизонтальный скролл */
     overflow-y: scroll
+
+
+.hover
+    transition: all 0.6s ease-out
+    background-color: #fff
+    color: #000
+    border-radius: 25px
+    a
+        color: #000
+        transition: all 0.6s ease-out
+
+// @-webkit-keyframes pulse 
+//     0% 
+//         -webkit-transform: scale(0.8, 0.8)
+//         transform: scale(0.8, 0.8)
+    
+//     50% 
+//         -webkit-transform: scale(1.0, 1.0)
+//         transform: scale(1.0, 1.0)
+    
+//     100% 
+//         -webkit-transform: scale(0.8, 0.8)
+//         transform: scale(0.8, 0.8)
+
+// @keyframes pulse
+//     0% 
+//         -webkit-transform: scale(0.8, 0.8)
+//         transform: scale(0.8, 0.8)
+    
+//     50% 
+//         -webkit-transform: scale(1.0, 1.0)
+//         transform: scale(1.0, 1.0)
+    
+//     100% 
+//         -webkit-transform: scale(0.8, 0.8)
+//         transform: scale(0.8, 0.8)
+
+// -webkit-animation: pulse 2s infinite
+// animation: pulse 2s infinite
+
+
+// .section__nav_about
+//     position: relative
+//     width: 100%
+//     height: 100%
+//     &-container
+//         background-color: #2E2D2E
+//         border-radius: 30px
+//         width: 1000px
+//         height: 460px
+//         position: relative
+//         overflow: hidden
+//         margin-left: 30px
+//         bottom: 120px
+//     &.expanded
+//         height: auto
+//         max-height: 1000px
+//         &-text
+//             height: auto
+//             opacity: 1
+//         &-title-container, &-name
+//             opacity: 0.5
+
+// .section__nav_about-btn-plus
+//     &.close
+//         &:before
+//             content: "+"; // Изменяем содержимое на плюс
+//         background-color: #FFCA43; // Изменяем цвет фона на желтый (по вашему описанию)
+//         border: none; // Убираем границу, чтобы не было видно креста
+
+// body.overlay
+//     background-color: rgba(0, 0, 0, 0.5)
+//     transition: background-color 0.3s
+
+
+
+    
 
 .link
     display: flex
@@ -26,7 +101,13 @@ body
 
 .border
     border: 1px solid #FFFFFF
-    border-radius: 25px
+    border-radius: 20px
+
+
+.hide
+    display: none
+.show
+    display: block
 
 .section__nav
     width: 100%
@@ -74,13 +155,12 @@ body
         overflow: hidden
         margin-left: 30px
         bottom: 120px
+        padding: 50px 0 0 50px
     &-title-container
         background-color: #FFCA43
         border-radius: 25px
-        width: 180px
-        height: 40px
-        margin-left: 50px 
-        margin-top: 50px
+        width: 20%
+        height: 10%
         justify-content: center 
         align-items: center 
         display: flex
@@ -92,27 +172,25 @@ body
         color: #FFCA43
         font-size: 48px
         font-weight: 500
-        margin-top: 140px
-        margin-left: 50px
+        margin-top: 100px
     &-text
         color: #FFCA43
         font-size: 16px
         font-weight: 400
         line-height: 30px
         margin-top: 60px
-        margin-left: 50px
-        width: 600px
-        height: 90px
+        width: 65%
+        height: 20%
     &-btn-plus
         position: relative
-        left: 885px
-        bottom: 70px
+        left: 855px
+        bottom: 35px
         display: inline-block
         width: 70px
         height: 70px
         background: linear-gradient(#FFCA43,#FFCA43), linear-gradient(#FFCA43,#FFCA43)
         background-position: center
-        background-size: 50% 1px,1px 50%; //*thickness = 2px, length = 50% (25px)*/
+        background-size: 50% 1px,1px 50% //*thickness = 2px, length = 50% (25px)*/
         background-repeat: no-repeat
         border: 1px #FFCA43 solid
         border-radius: 9999px
@@ -123,7 +201,7 @@ body
     bottom: 430px
     display: flex
 
-.section__nav_portfolio
+.section__nav_portfolio 
     width: 100%
     height: 100% 
     font-size: 48px  
@@ -161,8 +239,8 @@ body
         height: 310px 
         margin-left: 5px
     &-arrow
-        width: 110px
-        color: #FFFFFF
+        width: 130px
+        color: #FFFFFF  
 
 .section__welcome
     display: flex
@@ -193,7 +271,7 @@ body
 
 .line
     border: 0.5px solid #FFF 
-    width: 1400px
+    width: 95%
 
 .mini-rectangle
     width: 6px
@@ -226,13 +304,12 @@ body
     justify-content: space-around
     width: 100%
     height: 270px
+    margin-top: 50px
     &_blocks-container
         width: 575px
         height: 230px
-        margin-top: 50px
         display: flex
         flex-wrap: wrap
-
         font-weight: 500
         font-size: 20px
     &_blocks-js 
@@ -245,7 +322,6 @@ body
     &_blocks-sass
         width: 225px
         height: 60px
-        margin-right: 5px
     &_blocks-libraries
         width: 225px
         height: 60px
@@ -257,7 +333,6 @@ body
     &_blocks-other
         width: 115px
         height: 60px
-        font-size: 58px
     &_text-container
         display: flex
         width: 550px
@@ -321,7 +396,7 @@ body
                 line-height: normal
                 text-transform: capitalize
         &-text
-            width: 350px
+            width: 390px
             color: #7841FF
             font-size: 20px
             font-style: normal
@@ -386,9 +461,10 @@ body
         margin-top: 7px
         margin-left: 325px
         display: flex
-        justify-content: center
-        align-items: end
-        padding-bottom: 50px
+        flex-direction: column
+        justify-content: space-between
+        align-items: start
+        padding: 50px 50px
         &-text
             width: 180px
             color: #FFF
@@ -396,6 +472,7 @@ body
             font-style: normal
             font-weight: 400
             line-height: normal
+        &-img
     &_other2
         width: 340px
         height: 320px
@@ -404,9 +481,10 @@ body
         margin-top: 7px
         margin-left: 325px
         display: flex
-        justify-content: center
-        align-items: end
-        padding-bottom: 50px
+        flex-direction: column
+        justify-content: space-between
+        align-items: start
+        padding: 50px 50px
         &-text
             width: 190px
             color: #FF607C
@@ -414,6 +492,7 @@ body
             font-style: normal
             font-weight: 400
             line-height: normal
+        &-img
 
 
 .section__contact
@@ -444,12 +523,8 @@ body
     background-color: #FFF
     position: relative
 
-.hide
-    display: none
-.show
-
 .stick
-    font-size: 13em //* задает размер иконки */
+    font-size: 13em
     width: 0.35em
     height: 0.35em
     margin-bottom: 20px
@@ -481,10 +556,375 @@ body
     box-shadow: 0 5px 10px black
 .text
     color: #7841FF
-    font-size: 28px
+    font-size: 32px
     position: relative
     z-index: 4
-    margin: 6px 110px 0
+    margin: 6px 100px 0
 .hack
-    margin: 6px 102px 0
     color: #FFC701
+    width: 225px
+    margin: 6px 70px 0 
+    font-size: 28px
+
+
+
+@media (max-width: 1480px)
+    .section__nav_info
+        width: 265px
+    .section__nav_about-container
+        width: 62%
+    .section__nav_about-title-container
+        width: 30%
+    .section__nav_about-name
+        margin-top: 60px
+    .section__nav_about-btn-plus
+        left: 645px
+        bottom: 35px
+    .section__nav_two-blocks
+        left: 840px
+    .section__experience
+        align-content: flex-start
+    .section__experience_hackaton
+        width: 925px
+        height: 370px
+    .section__experience_other1
+        margin-left: 125px
+    .section__experience_other2
+        margin-left: 125px
+
+@media (max-width: 1299px)
+    .section__nav_photo
+        width: 350px
+    .section__nav_about-container
+        width: 805px
+    .section__nav_portfolio-container
+        width: 200px
+    .section__nav_cv-container
+        width: 150px
+    .section__nav_info
+        margin-right: 5px
+        width: 265px
+    .section__nav_about-title-container
+        width: 30%
+    .section__nav_two-blocks
+        bottom: 430px
+        left: 840px
+    .section__nav_about-btn-plus
+        left: 655px
+
+    .section__experience
+        align-content: flex-start
+        &_hackaton
+            width: 825px
+            height: 370px
+        &_other1
+            margin-left: 125px
+        &_shogushi
+            width: 690px	
+            height: 320px
+        &_other2
+            margin-left: 125px
+    .section__contact
+        margin-top: 0px
+
+    .section__contact_list
+        height: 150px
+
+@media (max-width: 1199px)
+    .stick 
+        font-size: 9em
+    .hack
+        color: #FFC701
+        margin: 4px 70px
+    .text
+        font-size: 22px
+        position: relative
+        z-index: 4
+        margin: 4px 80px 0 
+    .medium-rectangle
+        width: 16px
+        height: 16px
+    .dots
+        color: #FFF
+        text-decoration: none
+        font-size: 58px
+    .section__nav   
+        width: 100%   
+        height: 640px
+        &_info    
+            margin-right: 5px    
+            width: 190px
+            height: 70px
+            a
+                font-size: 20px
+        &_info-container    
+            display: flex    
+            float: left    
+            margin-right: 5px    
+            position: relative    
+            top: 130px    
+            padding-left: 30px
+        &_photo    
+            width: 360px
+            left: 5px
+            top: 25px
+        &_about-container    
+            width: 580px
+            bottom: 140px
+            height: 425px
+        &_about-title-container
+            width: 40%
+        &_about-text
+            width: 95%
+            height: 30%
+        &_about-name    
+            font-size: 40px    
+            margin-top: 40px
+        &_about-text    
+            color: #FFCA43    
+            font-size: 13px    
+            margin-top: 40px
+        &_two-blocks    
+            position: relative    
+            left: 620px
+            bottom: 395px
+        &_portfolio-container    
+            border-radius: 25px    
+            width: 195px
+            height: 255px
+        &_portfolio
+            font-size: 34px
+        &_cv-container    
+            border-radius: 25px    
+            width: 160px
+            height: 255px
+        &_cv
+            font-size: 34px
+    .section__welcome    
+        padding-left: 30px
+        &_title-container    
+            width: 500px
+        &_title    
+            font-size: 44px
+    .section__skills    
+        padding-left: 30px
+        &_text-title
+            font-size: 42px
+        &_text
+            font-size: 16px
+        &_blocks-container    
+            height: 255px
+            font-size: 18px
+        &_blocks-html
+            margin-top: 5px
+        &_blocks-sass
+            margin-top: 5px
+        &_blocks-libraries
+            margin-top: 5px
+        &_blocks-git
+            margin-top: 5px
+        &_blocks-other
+            margin-top: 5px
+    .section__experience
+        margin-top: 105px
+        padding-left: 30px
+        display: flex
+        flex-wrap: wrap
+        align-items: flex-end
+        width: 100%
+        height: 965px
+        align-content: flex-start
+        &_hackaton
+            width: 70%
+            height: 30%
+        &_hackaton-title
+            width: 271px
+            height: 95px
+            color: #7841FF
+            font-size: 32px
+            span
+                color: #7841FF
+                font-size: 32px
+        &_hackaton-text
+            width: 350px
+            color: #7841FF
+            font-size: 17px
+        &_case
+            width: 25%
+            height: 25%
+        &_other1
+            width: 30%
+            height: 30%
+            background-color: #FF607C
+            border-radius: 30px
+            margin-right: 7px
+            margin-top: 7px
+            margin-left: 80px
+        &_shogushi
+            width: 60%
+            height: 30%
+            &-title
+                font-size: 30px
+                span 
+                    font-size: 40px
+        &_other2
+            width: 30%
+            height: 30%
+            background-color: #FFF
+            border-radius: 30px
+            margin-top: 7px
+            margin-left: 80px
+    .section__contact_list
+        height: 140px
+        &-links
+            text-decoration: none
+            color: #FFF
+            font-size: 32px
+
+@media (max-width: 991px)
+    .section__nav_info-container
+        display: none
+    header
+        display: flex
+        justify-content: flex-end
+        padding: 20px 20px 0 0
+    .menu-btn
+        width: 30px
+        height: 30px
+        position: relative
+        z-index: 2
+        overflow: hidden
+        span 
+            width: 30px
+            height: 2px
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            background-color: #FFF
+            transition: all 0.5s
+            border-radius: 30px
+            &:nth-of-type(2) 
+                top: calc(50% - 7px)
+            &:nth-of-type(3) 
+                top: calc(50% + 7px)
+    .menu
+        position: fixed
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        padding: 15px
+        background: #2E2D2E
+        transform: translateX(-100%)
+        transition: transform 0.5s 
+    .menu.active 
+        transform: translateX(0)
+    .menu 
+        li 
+            list-style-type: none
+    .menu-btn.active 
+        span
+            &:nth-of-type(1) 
+                display: none
+            &:nth-of-type(2) 
+                top: 50%
+                transform: translate(-50%, 0%) rotate(45deg)  
+            &:nth-of-type(3)
+                top: 50%
+                transform: translate(-50%, 0%) rotate(-45deg)
+    .section__nav    
+        width: 100%    
+        height: 685px
+        &_about
+            justify-content: space-evenly
+        &_container    
+            margin-top: 10px
+        &_photo    
+            top: 0px
+        &_about-container    
+            width: 550px    
+            height: 625px    
+            margin-left: 420px    
+            bottom: 350px
+        &_about-title-container
+            margin: 0
+        &_about-name
+            height: 45px   
+            margin-top: 0px    
+            margin-left: 50px
+        &_about-text
+            font-size: 13px    
+            margin-top: 0px		    
+            width: 480px		    
+            height: 300px
+            &-hidden
+                color: #FFCA43
+                font-weight: 400
+                line-height: 30px
+                font-size: 13px    
+                margin-top: 0px		    
+        &_about-btn-plus
+            display: none
+        &_two-blocks    
+            left: 5px   
+            bottom: 620px
+        &_portfolio-container
+            height: 270px
+        &_cv-container
+            height: 270px
+    .section__welcome_title    
+        font-size: 42px
+        &-container    
+            width: 485px    
+            height: 125px
+    .section__experience    
+        margin-top: 50px
+        height: 795px
+        padding-left: 15px
+        &_hackaton    
+            width: 700px    
+            height: 280px
+        &_case    
+            width: 260px    
+            height: 230px
+        &_other1    
+            width: 280px    
+            height: 250px   
+            margin-right: 7px    
+            margin-top: 7px    
+            margin-left: 85px
+        &_shogushi    
+            width: 595px		    
+            height: 250px
+            &-title
+                width: 380px
+                span
+                    font-size: 34px
+        &_other2    
+            width: 280px    
+            height: 250px     
+            margin-top: 7px    
+            margin-left: 85px
+    .section__skills    
+        width: 100%    
+        height: 305px    
+        padding-left: 10px
+        &_blocks-html
+            margin-top: 5px
+        &_blocks-sass
+            margin: 5px 5px 0 0
+        &_blocks-libraries
+            margin: 5px 5px 0 0
+        &_blocks-git
+            margin-top: 5px
+        &_blocks-other
+            margin-top: 5px
+
+    .section__contact_list    
+        height: 115px
+        &-links    
+            font-size: 28px
+    .medium-rectangle
+        width: 13px    
+        height: 13px

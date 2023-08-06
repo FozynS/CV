@@ -11,22 +11,39 @@
 </head>
 
 <body>
-
     <section class="section__nav">
+
+        <header class="hide">
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#experience">Potfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
 
         <div class="section__nav_container">
 
             <div class="section__nav_info-container">
                 <div class="section__nav_info border">
-                    <a href="#" class="link">About Me</a>
+                    <a href="#about" class="link">About Me</a>
                 </div>
 
                 <div class="section__nav_info border">
-                    <a href="#" class="link">Potfolio</a>
+                    <a href="#experience" class="link">Potfolio</a>
                 </div>
 
                 <div class="section__nav_info border">
-                    <a href="#" class="link">Contact</a>
+                    <a href="#contact" class="link">Contact</a>
                 </div>
             </div>
 
@@ -40,30 +57,33 @@
                         <div class="section__nav_about-title">Front-End Developer</div>
                     </div>
                     <h1 class="section__nav_about-name">Danylo Shvydkiy</h1>
-                    <p class="section__nav_about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque perspiciatis voluptate iusto et! Sed voluptates minus nam quisquam ex dolores dignissimos at! Expedita qui tempora reprehenderit ipsam inventore tempore ex...</p>
-                    <a class="section__nav_about-btn-plus" href="#"></a>
+                    <p class="section__nav_about-text">Hi, my name is Danylo, I am 22 years old. I am from Odessa, Ukraine. Now I live in Torrevieja, Spain. I am a Frontend Developer. Read more in cv...
+                        <span class="section__nav_about-text-hidden hide"> My key qualities include being self- taught, diligent, stress-resistant, communicative, organized, possessing analytical thinking, and being responsible.
+                            Thanks to self-discipline, I increased my KPI by 50%.My favorite hobbies are:
+                            Constant self-development, chess, gym, swimming, skiing, reading books.</span> 
+                    </p>
+                    <a class="section__nav_about-btn-plus" id="expandBtn" href="#"></a>
                 </div>
             </article>
 
             <div class="section__nav_two-blocks">
 
                 <div class="section__nav_portfolio-container">
-                    <a class="section__nav_portfolio" href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg"
-                            class="section__nav_potfolio-arrow"
+                    <a class="section__nav_portfolio" href="#" target="blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                            class="section__nav_portfolio-arrow"
                             width="120" 
                             height="18" 
                             viewBox="0 0 120 18" 
-                            fill="none" >
+                            fill="none">
                             <path d="M120 9L105 0.339746V17.6603L120 9ZM0 10.5H106.5V7.5H0V10.5Z" fill="white"/>
                         </svg>
                         <h2>Portfolio</h2>
                     </a>
-                        
                 </div>
 
                 <div class="section__nav_cv-container">
-                    <a class="section__nav_cv" href="#">
+                    <a class="section__nav_cv" href="CV-DanyloShvidkiy.pdf" target="blank">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             class="section__nav_cv-arrow"
                             width="46" 
@@ -82,7 +102,7 @@
 
     </section>
 
-    <section class="section__welcome">
+    <section id="about" class="section__welcome">
         <div class="section__welcome_title-container">
             <h3 class="section__welcome_title">Welcome to my Space!</h3>
         </div>
@@ -91,6 +111,7 @@
             <h4 class="section__welcome_text">Here you can see my work, my experience and my skills.</h4>
         </div>
     </section>
+
         <br>
         <hr class="line">
     
@@ -99,26 +120,26 @@
         <div class="section__skills_blocks-container">
 
             <div class="section__skills_blocks-js border">
-                <a href="#" class="link">JavaScript<div class="mini-rectangle js"></div> </a> 
+                <span href="#" class="link">JavaScript<div class="mini-rectangle js"></div> </span> 
                 
             </div>
 
             <div class="section__skills_blocks-html border">
-                <a href="#" class="link">HTML/CSS<div class="mini-rectangle hc"></div> </a> 
+                <span href="#" class="link">HTML/CSS<div class="mini-rectangle hc"></div> </span> 
                 
             </div>
 
             <div class="section__skills_blocks-sass border">
-                <a href="#" class="link">SASS<div class="mini-rectangle s"></div> </a> 
+                <span href="#" class="link">SASS<div class="mini-rectangle s"></div> </span> 
                 
             </div>
 
             <div class="section__skills_blocks-libraries border">
-                <a href="#" class="link">React/Jquery<div class="mini-rectangle rj"></div> </a> 
+                <span href="#" class="link">React/Jquery<div class="mini-rectangle rj"></div> </span> 
             </div>
 
             <div class="section__skills_blocks-git border">
-                <a href="#" class="link">Git<div class="mini-rectangle g"></div> </a> 
+                <span href="#" class="link">Git<div class="mini-rectangle g"></div> </span> 
 
             </div>
 
@@ -129,32 +150,33 @@
 
         <div class="section__skills_text-container">
             <h3 class="section__skills_text-title">Skills</h3>
-            <p class="section__skills_text">I am a junior specialist. But I constantly develop and practice my skills.</p>
+            <p class="section__skills_text">I am a Front-End Developer. But I constantly develop and practice my skills.</p>
         </div>
 
     </section>
 
-    <section class="section__experience">
+    <section id="experience" class="section__experience">
 
         <div class="section__experience_hackaton">
             <div class="stick">
-                <p class="text hack">Developer</p>
+                <p class="text hack">Lead Developer</p>
             </div>
 
             <div class="section__experience_hackaton-description">
                 <h4 class="section__experience_hackaton-title">Hackathon <span>fresh Air</span> 2023</h4>
-                <p class="section__experience_hackaton-text">At this hackathon, I created a mobile application"Black Out Map Ukraine”.</p>
+                <p class="section__experience_hackaton-text">At this hackathon, I created a mobile application"Black Out Map Ukraine”.So I made a mini indie game.</p>
             </div>
             
         </div>
 
         <div class="section__experience_case">
             <h4 class="section__experience_case-text">Case Study</h4>
-            <a class="section__experience_case-btn-plus" href="#"></a>
+            <a class="section__experience_case-btn-plus" href="#" target="blank"></a>
         </div>
 
         <div class="section__experience_other1">
-            <p class="section__experience_other1-text">Working as a Content Manager</p>
+            <img src="image/Rectangle 4016.svg" alt="" class="section__experience_other1-img">
+            <p class="section__experience_other1-text">Created his own pet projects</p>
         </div>
 
         <div class="section__experience_shogushi">
@@ -165,28 +187,30 @@
         </div>
 
         <div class="section__experience_other2">
-            <p class="section__experience_other2-text">Creating Web-Site for  private School</p>
+            <img src="image/Rectangle 4018.svg" alt="" class="section__experience_other2-img">
+            <p class="section__experience_other2-text">I worked as a chef in Ukraine for 6 years</p>
         </div>
 
     </section>
 
-    <section class="section__contact">
+    <section id="contact" class="section__contact">
         <div class="section__contact_list border">
-            <a href="#" class="section__contact_list-links">Telegram<div class="medium-rectangle"></div></a>
+            <a href="https://t.me/Fozyn" target="blank" class="section__contact_list-links">Telegram<div class="medium-rectangle"></div></a>
             
         </div>
 
         <div class="section__contact_list border">
-            <a href="#" class="section__contact_list-links">E-Mail<div class="medium-rectangle"></div></a>
+            <a href="mailto:fozyn@icloud.com" target="blank" class="section__contact_list-links">E-Mail<div class="medium-rectangle"></div></a>
             
         </div>
 
         <div class="section__contact_list border">
-            <a href="#" class="section__contact_list-links">Linkedin<div class="medium-rectangle"></div></a>
+            <a href="https://www.linkedin.com/in/danylo-shvidkiy-ab9761257/" target="blank" class="section__contact_list-links">Linkedin<div class="medium-rectangle"></div></a>
         </div>
 
     </section>
 
 
+<script src="script/app.js"></script>
 </body>
 </html>
