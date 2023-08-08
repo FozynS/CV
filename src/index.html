@@ -10,26 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="animate-on-load">
     <section class="section__nav">
-
-        <header class="hide">
-            <div class="menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#experience">Potfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        
 
         <div class="section__nav_container">
 
@@ -62,7 +44,7 @@
                             Thanks to self-discipline, I increased my KPI by 50%.My favorite hobbies are:
                             Constant self-development, chess, gym, swimming, skiing, reading books.</span> 
                     </p>
-                    <a class="section__nav_about-btn-plus" id="expandBtn" href="#"></a>
+                    <a data-close class="section__nav_about-btn-plus"></a>
                 </div>
             </article>
 
@@ -71,7 +53,7 @@
                 <div class="section__nav_portfolio-container">
                     <a class="section__nav_portfolio" href="#" target="blank">
                         <svg xmlns="http://www.w3.org/2000/svg" 
-                            class="section__nav_portfolio-arrow"
+                            class="section__nav_portfolio-arrow pulse"
                             width="120" 
                             height="18" 
                             viewBox="0 0 120 18" 
@@ -85,7 +67,7 @@
                 <div class="section__nav_cv-container">
                     <a class="section__nav_cv" href="CV-DanyloShvidkiy.pdf" target="blank">
                         <svg xmlns="http://www.w3.org/2000/svg"
-                            class="section__nav_cv-arrow"
+                            class="section__nav_cv-arrow pulseCV"
                             width="46" 
                             height="18" 
                             viewBox="0 0 46 18" 
@@ -102,13 +84,13 @@
 
     </section>
 
-    <section id="about" class="section__welcome">
+    <section class="section__welcome">
         <div class="section__welcome_title-container">
-            <h3 class="section__welcome_title">Welcome to my Space!</h3>
+            <h3 class="section__welcome_title child">Welcome to my Space!</h3>
         </div>
 
         <div class="section__welcome_text-container">
-            <h4 class="section__welcome_text">Here you can see my work, my experience and my skills.</h4>
+            <h4 class="section__welcome_text child">Here you can see my work, my experience and my skills.</h4>
         </div>
     </section>
 
@@ -119,49 +101,56 @@
 
         <div class="section__skills_blocks-container">
 
-            <div class="section__skills_blocks-js border">
+            <div class="section__skills_blocks-js border child">
                 <span href="#" class="link">JavaScript<div class="mini-rectangle js"></div> </span> 
                 
             </div>
 
-            <div class="section__skills_blocks-html border">
-                <span href="#" class="link">HTML/CSS<div class="mini-rectangle hc"></div> </span> 
+            <div class="section__skills_blocks-html border child">
+                <span class="link">HTML/CSS<div class="mini-rectangle hc"></div> </span> 
                 
             </div>
 
-            <div class="section__skills_blocks-sass border">
-                <span href="#" class="link">SASS<div class="mini-rectangle s"></div> </span> 
+            <div class="section__skills_blocks-sass border child">
+                <span class="link">SASS<div class="mini-rectangle s"></div> </span> 
                 
             </div>
 
-            <div class="section__skills_blocks-libraries border">
-                <span href="#" class="link">React/Jquery<div class="mini-rectangle rj"></div> </span> 
+            <div class="section__skills_blocks-libraries border child">
+                <span class="link">React/Jquery<div class="mini-rectangle rj"></div> </span> 
             </div>
 
-            <div class="section__skills_blocks-git border">
-                <span href="#" class="link">Git<div class="mini-rectangle g"></div> </span> 
-
+            <div class="section__skills_blocks-git border child">
+                <span class="link">Git<div class="mini-rectangle g"></div> </span> 
             </div>
 
-            <div class="section__skills_blocks-other border">
-                <a href="#" class="dots">...</a> 
+            <div class="section__skills_blocks-other border child">
+                <a class="dots">...</a> 
+            </div>
+
+            <div class="section__skills_blocks-webpack border child hidden">
+                <span class="link">Webpack<div class="mini-rectangle w"></div> </span> 
+            </div>
+
+            <div class="section__skills_blocks-babel border child hidden">
+                <span class="link">Babel<div class="mini-rectangle g"></div> </span> 
             </div>
         </div>
 
         <div class="section__skills_text-container">
-            <h3 class="section__skills_text-title">Skills</h3>
-            <p class="section__skills_text">I am a Front-End Developer. But I constantly develop and practice my skills.</p>
+            <h3 class="section__skills_text-title child">Skills</h3>
+            <p class="section__skills_text child">I am a Front-End Developer. But I constantly develop and practice my skills.</p>
         </div>
 
     </section>
 
-    <section id="experience" class="section__experience">
+    <section class="section__experience">
 
         <div class="section__experience_hackaton">
-            <div class="stick">
+            <div class="stick-hackaton">
                 <p class="text hack">Lead Developer</p>
             </div>
-
+            <img src="image/Hackaton.svg" alt="img">
             <div class="section__experience_hackaton-description">
                 <h4 class="section__experience_hackaton-title">Hackathon <span>fresh Air</span> 2023</h4>
                 <p class="section__experience_hackaton-text">At this hackathon, I created a mobile application"Black Out Map Ukraine”.So I made a mini indie game.</p>
@@ -175,19 +164,23 @@
         </div>
 
         <div class="section__experience_other1">
-            <img src="image/Rectangle 4016.svg" alt="" class="section__experience_other1-img">
+            <img src="image/other1.svg" alt="" class="section__experience_other1-img">
             <p class="section__experience_other1-text">Created his own pet projects</p>
         </div>
 
         <div class="section__experience_shogushi">
-            <h4 class="section__experience_shogushi-title">Clothes brand <span>Shogushi Armor</span></h4>
-            <div class="stick">
+            <div class="stick-shogushi">
                 <p class="text">Founder</p>
             </div>
+            <div class="section__experience_shogushi-title-container">
+                <h4 class="section__experience_shogushi-title">Clothes brand <span>Shogushi Armor</span></h4>
+                <img src="image/Shogushi.svg" alt="#">
+            </div>
+            
         </div>
 
         <div class="section__experience_other2">
-            <img src="image/Rectangle 4018.svg" alt="" class="section__experience_other2-img">
+            <img src="image/other2.svg" alt="" class="section__experience_other2-img">
             <p class="section__experience_other2-text">I worked as a chef in Ukraine for 6 years</p>
         </div>
 
@@ -211,6 +204,6 @@
     </section>
 
 
-<script src="script/app.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

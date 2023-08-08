@@ -13,83 +13,62 @@ body
     overflow-x: hidden  //* отключает горизонтальный скролл */
     overflow-y: scroll
 
+.animate-on-load 
+    opacity: 0
+    animation: fadeIn 1s ease
+
+@keyframes fadeIn 
+    from 
+        opacity: 0
+    to 
+        opacity: 1
 
 .hover
     transition: all 0.6s ease-out
     background-color: #fff
     color: #000
     border-radius: 25px
+    .medium-rectangle
+        background-color: #000
     a
         color: #000
         transition: all 0.6s ease-out
 
-// @-webkit-keyframes pulse 
-//     0% 
-//         -webkit-transform: scale(0.8, 0.8)
-//         transform: scale(0.8, 0.8)
-    
-//     50% 
-//         -webkit-transform: scale(1.0, 1.0)
-//         transform: scale(1.0, 1.0)
-    
-//     100% 
-//         -webkit-transform: scale(0.8, 0.8)
-//         transform: scale(0.8, 0.8)
+.u-turn
+    transform: rotate(135deg) 
+    transition-duration: 1.2s
+.return
+    transform: rotate(-90deg)
+    transition-duration: 1.2s
 
-// @keyframes pulse
-//     0% 
-//         -webkit-transform: scale(0.8, 0.8)
-//         transform: scale(0.8, 0.8)
-    
-//     50% 
-//         -webkit-transform: scale(1.0, 1.0)
-//         transform: scale(1.0, 1.0)
-    
-//     100% 
-//         -webkit-transform: scale(0.8, 0.8)
-//         transform: scale(0.8, 0.8)
+.pulse
+    -webkit-animation: pulse 2.5s infinite
+    animation: pulse 2.5s infinite
+.pulseCV
+    -webkit-animation: pulse 1s infinite
+    animation: pulse 1s infinite
 
-// -webkit-animation: pulse 2s infinite
-// animation: pulse 2s infinite
+@-webkit-keyframes pulse 
+    100% 
+        -webkit-transform: scale(0.8, 0.8)
+        transform: scale(0.8, 0.8)
+    50% 
+        -webkit-transform: scale(1.0, 1.0)
+        transform: scale(1.0, 1.0)
+    0% 
+        -webkit-transform: scale(0.8, 0.8)
+        transform: scale(0.8, 0.8)
 
-
-// .section__nav_about
-//     position: relative
-//     width: 100%
-//     height: 100%
-//     &-container
-//         background-color: #2E2D2E
-//         border-radius: 30px
-//         width: 1000px
-//         height: 460px
-//         position: relative
-//         overflow: hidden
-//         margin-left: 30px
-//         bottom: 120px
-//     &.expanded
-//         height: auto
-//         max-height: 1000px
-//         &-text
-//             height: auto
-//             opacity: 1
-//         &-title-container, &-name
-//             opacity: 0.5
-
-// .section__nav_about-btn-plus
-//     &.close
-//         &:before
-//             content: "+"; // Изменяем содержимое на плюс
-//         background-color: #FFCA43; // Изменяем цвет фона на желтый (по вашему описанию)
-//         border: none; // Убираем границу, чтобы не было видно креста
-
-// body.overlay
-//     background-color: rgba(0, 0, 0, 0.5)
-//     transition: background-color 0.3s
-
-
-
-    
-
+@keyframes pulse
+    100% 
+        -webkit-transform: scale(0.8, 0.8)
+        transform: scale(0.8, 0.8)
+    50% 
+        -webkit-transform: scale(1.0, 1.0)
+        transform: scale(1.0, 1.0)
+    0% 
+        -webkit-transform: scale(0.8, 0.8)
+        transform: scale(0.8, 0.8)
 .link
     display: flex
     justify-content: center
@@ -103,11 +82,23 @@ body
     border: 1px solid #FFFFFF
     border-radius: 20px
 
-
-.hide
+.hidden
     display: none
+.hide
+    opacity: 0
 .show
-    display: block
+    opacity: 1
+
+.child
+    opacity: 0
+    transform: translateX(-60%)
+    transition: opacity 0.5s ease, transform 0.5s ease
+.element-show 
+    opacity: 1
+    transition: all 1s
+    transform: translateX(1%)
+    transition-timing-function: ease-in-out
+
 
 .section__nav
     width: 100%
@@ -172,15 +163,18 @@ body
         color: #FFCA43
         font-size: 48px
         font-weight: 500
-        margin-top: 100px
+        margin-top: 80px
     &-text
         color: #FFCA43
-        font-size: 16px
+        font-size: 18px
         font-weight: 400
         line-height: 30px
         margin-top: 60px
         width: 65%
         height: 20%
+        &-hidden
+            transition: opacity 0.3s ease-in-out
+            
     &-btn-plus
         position: relative
         left: 855px
@@ -190,10 +184,11 @@ body
         height: 70px
         background: linear-gradient(#FFCA43,#FFCA43), linear-gradient(#FFCA43,#FFCA43)
         background-position: center
-        background-size: 50% 1px,1px 50% //*thickness = 2px, length = 50% (25px)*/
+        background-size: 50% 1.5px,1.5px 50% //*thickness = 2px, length = 50% (25px)*/
         background-repeat: no-repeat
         border: 1px #FFCA43 solid
         border-radius: 9999px
+        cursor: pointer
 
 .section__nav_two-blocks
     position: relative
@@ -289,6 +284,8 @@ body
     left: 30px
 .g
     left: 70px
+.w
+    left: 45px
 
 .dots
     color: #FFF;
@@ -298,6 +295,7 @@ body
     justify-content: center
     position: relative
     bottom: 15px
+    cursor: pointer
 
 .section__skills
     display: flex
@@ -306,8 +304,8 @@ body
     height: 270px
     margin-top: 50px
     &_blocks-container
-        width: 575px
-        height: 230px
+        width: 580px
+        height: 300px
         display: flex
         flex-wrap: wrap
         font-weight: 500
@@ -333,6 +331,13 @@ body
     &_blocks-other
         width: 115px
         height: 60px
+    &_blocks-webpack
+        width: 225px
+        height: 60px
+        margin-right: 5px
+    &_blocks-babel
+        width: 225px
+        height: 60px
     &_text-container
         display: flex
         width: 550px
@@ -354,8 +359,7 @@ body
         font-style: normal
         font-weight: 400
         line-height: 40px
-        text-transform: capitalize 
-
+        text-transform: capitalize
 
 .section__experience
     margin-top: 105px
@@ -375,6 +379,12 @@ body
         flex-direction: column
         justify-content: space-around
         padding-left: 50px
+        img 
+            height: 100px
+            width: 100px
+            position: relative
+            left: 925px
+            bottom: 120px
         &-description
             display: flex
             justify-content: space-between
@@ -436,9 +446,10 @@ body
         margin-right: 7px
         margin-top: 7px
         display: flex
-        flex-direction: column-reverse
-        justify-content: space-around
+        flex-direction: column
+        justify-content: space-evenly
         padding-left: 50px
+        padding-right: 50px
         &-title
             color: #FFF
             font-size: 48px
@@ -452,6 +463,13 @@ body
                 font-style: normal
                 font-weight: 600
                 line-height: normal
+            &-container
+                display: flex
+                justify-content: space-between
+                align-items: end
+                img
+                    height: 88px
+                    width: 88px
     &_other1
         width: 340px
         height: 320px
@@ -472,7 +490,6 @@ body
             font-style: normal
             font-weight: 400
             line-height: normal
-        &-img
     &_other2
         width: 340px
         height: 320px
@@ -492,7 +509,6 @@ body
             font-style: normal
             font-weight: 400
             line-height: normal
-        &-img
 
 
 .section__contact
@@ -523,7 +539,7 @@ body
     background-color: #FFF
     position: relative
 
-.stick
+.stick-hackaton
     font-size: 13em
     width: 0.35em
     height: 0.35em
@@ -533,7 +549,10 @@ body
     border-radius: 50%
     /* z-index: 3; */
     box-shadow: 0 5px 10px black
-.stick:before
+    &.hovered::before,
+    &.hovered::after
+        opacity: 1
+.stick-hackaton:before
     content: ""
     width: 0.2em 
     height: 0.2em
@@ -541,9 +560,11 @@ body
     right: -0.22em
     bottom: -0em
     background: black
-    /* z-index: 1; */
     box-shadow: 0 5px 10px black
-.stick:after
+
+    opacity: 0
+    transition: opacity 0.1s ease-in-out
+.stick-hackaton:after
     content: ""
     width: 1.2em 
     height: 0.33em
@@ -552,8 +573,10 @@ body
     bottom: -0.06em
     background: black
     border-radius: 20px
-    /* z-index: 2; */
     box-shadow: 0 5px 10px black
+
+    opacity: 0
+    transition: opacity 0.3s ease-in-out
 .text
     color: #7841FF
     font-size: 32px
@@ -565,6 +588,46 @@ body
     width: 225px
     margin: 6px 70px 0 
     font-size: 28px
+
+.stick-shogushi
+    font-size: 13em
+    width: 0.35em
+    height: 0.35em
+    margin-bottom: 20px
+    border: 0.07em solid #000
+    position: relative
+    border-radius: 50%
+    /* z-index: 3; */
+    box-shadow: 0 5px 10px black
+    &.hovered::before,
+    &.hovered::after
+        opacity: 1
+
+.stick-shogushi:before
+    content: ""
+    width: 0.2em 
+    height: 0.2em
+    position: absolute 
+    right: -0.22em
+    bottom: -0em
+    background: black
+    box-shadow: 0 5px 10px black
+
+    opacity: 0
+    transition: opacity 0.1s ease-in-out
+.stick-shogushi:after
+    content: ""
+    width: 1.2em 
+    height: 0.33em
+    position: absolute 
+    right: -1.3em
+    bottom: -0.06em
+    background: black
+    border-radius: 20px
+    box-shadow: 0 5px 10px black
+
+    opacity: 0
+    transition: opacity 0.3s ease-in-out
 
 
 
