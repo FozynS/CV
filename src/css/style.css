@@ -5,7 +5,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/* line 11, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -18,7 +17,6 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 23, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 body {
   margin: 0;
 }
@@ -26,7 +24,6 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
-/* line 31, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 main {
   display: block;
 }
@@ -35,7 +32,6 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 40, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -47,7 +43,6 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 53, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -61,7 +56,6 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 64, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -74,7 +68,6 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 76, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 a {
   background-color: transparent;
 }
@@ -83,7 +76,6 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 85, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -96,7 +88,6 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 95, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 b,
 strong {
   font-weight: bolder;
@@ -106,7 +97,6 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 105, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 code,
 kbd,
 samp {
@@ -119,7 +109,6 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 116, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 small {
   font-size: 80%;
 }
@@ -128,7 +117,6 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 125, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -137,12 +125,10 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 133, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 137, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 sup {
   top: -0.5em;
 }
@@ -152,7 +138,6 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 148, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 img {
   border-style: none;
 }
@@ -163,7 +148,6 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 160, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 button,
 input,
 optgroup,
@@ -183,7 +167,6 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 176, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 button,
 input {
   /* 1 */
@@ -194,7 +177,6 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 186, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 button,
 select {
   /* 1 */
@@ -204,7 +186,6 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 195, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -215,7 +196,6 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 206, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -227,7 +207,6 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 218, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -238,7 +217,6 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-/* line 229, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -249,7 +227,6 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 240, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -268,7 +245,6 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 253, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 progress {
   vertical-align: baseline;
 }
@@ -276,7 +252,6 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 261, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -285,7 +260,6 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 270, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -297,7 +271,6 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 280, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -307,7 +280,6 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 290, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -318,7 +290,6 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 299, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -327,7 +298,6 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 308, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -340,7 +310,6 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 320, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 details {
   display: block;
 }
@@ -348,7 +317,6 @@ details {
 /*
  * Add the correct display in all browsers.
  */
-/* line 328, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 summary {
   display: list-item;
 }
@@ -358,7 +326,6 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 339, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 template {
   display: none;
 }
@@ -366,12 +333,10 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-/* line 347, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/normalize.scss */
 [hidden] {
   display: none;
 }
 
-/* line 1, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -393,56 +358,46 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 21, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 25, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/reset.scss */
 html {
   height: 100%;
 }
 
-/* line 28, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 31, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 34, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 37, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 42, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 4, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 * {
   box-sizing: border-box;
 }
 
-/* line 7, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 html {
   scroll-behavior: smooth;
 }
 
-/* line 9, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 body {
   font-family: 'Poppins', sans-serif;
   display: block;
@@ -451,7 +406,6 @@ body {
   overflow-y: scroll;
 }
 
-/* line 16, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .animate-on-load {
   opacity: 0;
   animation: fadeIn 1s ease;
@@ -466,7 +420,6 @@ body {
   }
 }
 
-/* line 26, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .hover {
   transition: all 0.6s ease-out;
   background-color: #fff;
@@ -474,36 +427,30 @@ body {
   border-radius: 25px;
 }
 
-/* line 31, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .hover .medium-rectangle {
   background-color: #000;
 }
 
-/* line 33, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .hover a {
   color: #000;
   transition: all 0.6s ease-out;
 }
 
-/* line 37, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .u-turn {
   transform: rotate(135deg);
   transition-duration: 1.2s;
 }
 
-/* line 40, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .return {
   transform: rotate(-90deg);
   transition-duration: 1.2s;
 }
 
-/* line 44, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .pulse {
   -webkit-animation: pulse 2.5s infinite;
   animation: pulse 2.5s infinite;
 }
 
-/* line 47, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .pulseCV {
   -webkit-animation: pulse 1s infinite;
   animation: pulse 1s infinite;
@@ -539,7 +486,6 @@ body {
   }
 }
 
-/* line 72, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .link {
   display: flex;
   justify-content: center;
@@ -550,35 +496,29 @@ body {
   height: 100%;
 }
 
-/* line 81, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .border {
   border: 1px solid #FFFFFF;
   border-radius: 20px;
 }
 
-/* line 85, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .hidden {
   display: none;
 }
 
-/* line 87, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .hide {
   opacity: 0;
 }
 
-/* line 89, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .show {
   opacity: 1;
 }
 
-/* line 92, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .child {
   opacity: 0;
   transform: translateX(-60%);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-/* line 96, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .element-show {
   opacity: 1;
   transition: all 1s;
@@ -586,36 +526,30 @@ body {
   transition-timing-function: ease-in-out;
 }
 
-/* line 103, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav {
   width: 100%;
   height: 690px;
 }
 
-/* line 106, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_container {
   width: 100%;
   height: 100%;
 }
 
-/* line 109, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_info {
   margin-right: 5px;
   width: 330px;
   height: 80px;
 }
 
-/* line 113, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_info:nth-child(3) {
   margin-right: 0px;
 }
 
-/* line 115, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_info a {
   font-size: 24px;
 }
 
-/* line 117, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_info-container {
   display: flex;
   float: left;
@@ -625,7 +559,6 @@ body {
   padding-left: 30px;
 }
 
-/* line 124, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_photo {
   width: 450px;
   height: 350px;
@@ -636,20 +569,17 @@ body {
   border-radius: 30px;
 }
 
-/* line 132, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_photo-img {
   width: 100%;
   object-fit: cover;
 }
 
-/* line 136, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_about {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-/* line 140, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_about-container {
   background-color: #2E2D2E;
   border-radius: 30px;
@@ -662,7 +592,6 @@ body {
   padding: 50px 0 0 50px;
 }
 
-/* line 150, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_about-title-container {
   background-color: #FFCA43;
   border-radius: 25px;
@@ -673,14 +602,12 @@ body {
   display: flex;
 }
 
-/* line 158, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_about-title {
   color: #111111;
   font-size: 16px;
   font-weight: 700;
 }
 
-/* line 162, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_about-name {
   color: #FFCA43;
   font-size: 48px;
@@ -688,7 +615,6 @@ body {
   margin-top: 80px;
 }
 
-/* line 167, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_about-text {
   color: #FFCA43;
   font-size: 18px;
@@ -699,12 +625,10 @@ body {
   height: 20%;
 }
 
-/* line 175, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_about-text-hidden {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 178, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_about-btn-plus {
   position: relative;
   left: 855px;
@@ -721,7 +645,6 @@ body {
   cursor: pointer;
 }
 
-/* line 193, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_two-blocks {
   position: relative;
   left: 1035px;
@@ -729,7 +652,6 @@ body {
   display: flex;
 }
 
-/* line 199, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_portfolio {
   width: 100%;
   height: 100%;
@@ -742,12 +664,10 @@ body {
   text-decoration: none;
 }
 
-/* line 209, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_portfolio h2 {
   color: #FFFFFF;
 }
 
-/* line 211, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_portfolio-container {
   background-color: #7841FF;
   border-radius: 25px;
@@ -755,13 +675,11 @@ body {
   height: 310px;
 }
 
-/* line 216, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_portfolio-arrow {
   width: 130px;
   color: #FFFFFF;
 }
 
-/* line 219, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_cv {
   width: 100%;
   height: 100%;
@@ -775,7 +693,6 @@ body {
   text-decoration: none;
 }
 
-/* line 230, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_cv-container {
   background-color: #FF607C;
   border-radius: 25px;
@@ -784,13 +701,11 @@ body {
   margin-left: 5px;
 }
 
-/* line 236, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__nav_cv-arrow {
   width: 130px;
   color: #FFFFFF;
 }
 
-/* line 240, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__welcome {
   display: flex;
   justify-content: space-evenly;
@@ -798,13 +713,11 @@ body {
   align-items: end;
 }
 
-/* line 245, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__welcome_title-container {
   width: 590px;
   height: 180px;
 }
 
-/* line 248, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__welcome_title {
   color: #FFFFFF;
   font-size: 64px;
@@ -814,13 +727,11 @@ body {
   text-transform: capitalize;
 }
 
-/* line 255, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__welcome_text-container {
   width: 460px;
   height: 80px;
 }
 
-/* line 258, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__welcome_text {
   color: #FFFFFF;
   font-size: 20px;
@@ -831,13 +742,11 @@ body {
   text-transform: capitalize;
 }
 
-/* line 267, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .line {
   border: 0.5px solid #FFF;
   width: 95%;
 }
 
-/* line 271, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .mini-rectangle {
   width: 6px;
   height: 6px;
@@ -846,37 +755,30 @@ body {
   position: relative;
 }
 
-/* line 277, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .js {
   left: 100px;
 }
 
-/* line 279, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .hc {
   left: 45px;
 }
 
-/* line 281, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .s {
   left: 61px;
 }
 
-/* line 283, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .rj {
   left: 30px;
 }
 
-/* line 285, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .g {
   left: 70px;
 }
 
-/* line 287, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .w {
   left: 45px;
 }
 
-/* line 290, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .dots {
   color: #FFF;
   text-decoration: none;
@@ -888,7 +790,6 @@ body {
   cursor: pointer;
 }
 
-/* line 300, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__skills {
   display: flex;
   justify-content: space-around;
@@ -897,7 +798,6 @@ body {
   margin-top: 50px;
 }
 
-/* line 306, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__skills_blocks-container {
   width: 580px;
   height: 300px;
@@ -907,59 +807,50 @@ body {
   font-size: 20px;
 }
 
-/* line 313, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__skills_blocks-js {
   width: 360px;
   height: 60px;
 }
 
-/* line 316, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__skills_blocks-html {
   width: 225px;
   height: 60px;
   margin-right: 5px;
 }
 
-/* line 320, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__skills_blocks-sass {
   width: 225px;
   height: 60px;
 }
 
-/* line 323, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__skills_blocks-libraries {
   width: 225px;
   height: 60px;
   margin-right: 5px;
 }
 
-/* line 327, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__skills_blocks-git {
   width: 225px;
   height: 60px;
   margin-right: 5px;
 }
 
-/* line 331, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__skills_blocks-other {
   width: 115px;
   height: 60px;
 }
 
-/* line 334, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__skills_blocks-webpack {
   width: 225px;
   height: 60px;
   margin-right: 5px;
 }
 
-/* line 338, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__skills_blocks-babel {
   width: 225px;
   height: 60px;
 }
 
-/* line 341, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__skills_text-container {
   display: flex;
   width: 550px;
@@ -970,7 +861,6 @@ body {
   padding-left: 35px;
 }
 
-/* line 349, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__skills_text-title {
   color: #FFF;
   font-size: 48px;
@@ -980,7 +870,6 @@ body {
   text-transform: capitalize;
 }
 
-/* line 356, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__skills_text {
   color: #FFF;
   font-size: 20px;
@@ -990,7 +879,6 @@ body {
   text-transform: capitalize;
 }
 
-/* line 364, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience {
   margin-top: 105px;
   padding-left: 30px;
@@ -1001,7 +889,6 @@ body {
   height: 1125px;
 }
 
-/* line 372, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_hackaton {
   width: 1125px;
   height: 470px;
@@ -1014,7 +901,6 @@ body {
   padding-left: 50px;
 }
 
-/* line 382, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_hackaton img {
   height: 100px;
   width: 100px;
@@ -1023,14 +909,12 @@ body {
   bottom: 120px;
 }
 
-/* line 388, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_hackaton-description {
   display: flex;
   justify-content: space-between;
   align-items: end;
 }
 
-/* line 392, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_hackaton-title {
   width: 338px;
   height: 110px;
@@ -1042,7 +926,6 @@ body {
   text-transform: capitalize;
 }
 
-/* line 401, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_hackaton-title span {
   color: #7841FF;
   font-size: 48px;
@@ -1052,7 +935,6 @@ body {
   text-transform: capitalize;
 }
 
-/* line 408, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_hackaton-text {
   width: 390px;
   color: #7841FF;
@@ -1062,7 +944,6 @@ body {
   line-height: normal;
 }
 
-/* line 415, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_case {
   width: 330px;
   height: 320px;
@@ -1074,7 +955,6 @@ body {
   padding-left: 50px;
 }
 
-/* line 424, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_case-text {
   color: #FFC701;
   font-size: 20px;
@@ -1084,7 +964,6 @@ body {
   text-transform: capitalize;
 }
 
-/* line 431, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_case-btn-plus {
   display: inline-block;
   width: 70px;
@@ -1097,7 +976,6 @@ body {
   border-radius: 9999px;
 }
 
-/* line 441, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_shogushi {
   width: 790px;
   height: 320px;
@@ -1112,7 +990,6 @@ body {
   padding-right: 50px;
 }
 
-/* line 453, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_shogushi-title {
   color: #FFF;
   font-size: 48px;
@@ -1122,7 +999,6 @@ body {
   width: 400px;
 }
 
-/* line 460, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_shogushi-title span {
   color: #FFF;
   font-size: 48px;
@@ -1131,20 +1007,17 @@ body {
   line-height: normal;
 }
 
-/* line 466, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_shogushi-title-container {
   display: flex;
   justify-content: space-between;
   align-items: end;
 }
 
-/* line 470, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_shogushi-title-container img {
   height: 88px;
   width: 88px;
 }
 
-/* line 473, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_other1 {
   width: 340px;
   height: 320px;
@@ -1160,7 +1033,6 @@ body {
   padding: 50px 50px;
 }
 
-/* line 486, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_other1-text {
   width: 180px;
   color: #FFF;
@@ -1170,7 +1042,6 @@ body {
   line-height: normal;
 }
 
-/* line 493, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_other2 {
   width: 340px;
   height: 320px;
@@ -1185,7 +1056,6 @@ body {
   padding: 50px 50px;
 }
 
-/* line 505, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__experience_other2-text {
   width: 190px;
   color: #FF607C;
@@ -1195,21 +1065,18 @@ body {
   line-height: normal;
 }
 
-/* line 514, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__contact {
   margin-top: 50px;
   padding-left: 30px;
   padding-right: 30px;
 }
 
-/* line 518, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__contact_list {
   height: 182px;
   margin-bottom: 10px;
   padding: 0 50px;
 }
 
-/* line 522, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .section__contact_list-links {
   text-decoration: none;
   color: #FFF;
@@ -1224,7 +1091,6 @@ body {
   justify-content: space-between;
 }
 
-/* line 535, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .medium-rectangle {
   width: 20px;
   height: 20px;
@@ -1233,7 +1099,6 @@ body {
   position: relative;
 }
 
-/* line 542, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .stick-hackaton {
   font-size: 13em;
   width: 0.35em;
@@ -1246,12 +1111,10 @@ body {
   box-shadow: 0 5px 10px black;
 }
 
-/* line 552, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .stick-hackaton.hovered::before, .stick-hackaton.hovered::after {
   opacity: 1;
 }
 
-/* line 555, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .stick-hackaton:before {
   content: "";
   width: 0.2em;
@@ -1265,7 +1128,6 @@ body {
   transition: opacity 0.1s ease-in-out;
 }
 
-/* line 567, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .stick-hackaton:after {
   content: "";
   width: 1.2em;
@@ -1280,7 +1142,6 @@ body {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 580, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .text {
   color: #7841FF;
   font-size: 32px;
@@ -1289,7 +1150,6 @@ body {
   margin: 6px 100px 0;
 }
 
-/* line 586, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .hack {
   color: #FFC701;
   width: 225px;
@@ -1297,7 +1157,6 @@ body {
   font-size: 28px;
 }
 
-/* line 592, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .stick-shogushi {
   font-size: 13em;
   width: 0.35em;
@@ -1310,12 +1169,10 @@ body {
   box-shadow: 0 5px 10px black;
 }
 
-/* line 602, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .stick-shogushi.hovered::before, .stick-shogushi.hovered::after {
   opacity: 1;
 }
 
-/* line 606, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .stick-shogushi:before {
   content: "";
   width: 0.2em;
@@ -1329,7 +1186,6 @@ body {
   transition: opacity 0.1s ease-in-out;
 }
 
-/* line 618, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
 .stick-shogushi:after {
   content: "";
   width: 1.2em;
@@ -1345,161 +1201,127 @@ body {
 }
 
 @media (max-width: 1480px) {
-  /* line 635, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_info {
     width: 265px;
   }
-  /* line 637, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-container {
     width: 62%;
   }
-  /* line 639, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-title-container {
     width: 30%;
   }
-  /* line 641, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-name {
     margin-top: 60px;
   }
-  /* line 643, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-btn-plus {
     left: 645px;
     bottom: 35px;
   }
-  /* line 646, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_two-blocks {
     left: 840px;
   }
-  /* line 648, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience {
     align-content: flex-start;
   }
-  /* line 650, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_hackaton {
     width: 925px;
     height: 370px;
   }
-  /* line 653, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_other1 {
     margin-left: 125px;
   }
-  /* line 655, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_other2 {
     margin-left: 125px;
   }
 }
 
 @media (max-width: 1299px) {
-  /* line 659, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_photo {
     width: 350px;
   }
-  /* line 661, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-container {
     width: 805px;
   }
-  /* line 663, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_portfolio-container {
     width: 200px;
   }
-  /* line 665, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_cv-container {
     width: 150px;
   }
-  /* line 667, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_info {
     margin-right: 5px;
     width: 265px;
   }
-  /* line 670, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-title-container {
     width: 30%;
   }
-  /* line 672, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_two-blocks {
     bottom: 430px;
     left: 840px;
   }
-  /* line 675, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-btn-plus {
     left: 655px;
   }
-  /* line 678, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience {
     align-content: flex-start;
   }
-  /* line 680, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_hackaton {
     width: 825px;
     height: 370px;
   }
-  /* line 683, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_other1 {
     margin-left: 125px;
   }
-  /* line 685, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_shogushi {
     width: 690px;
     height: 320px;
   }
-  /* line 688, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_other2 {
     margin-left: 125px;
   }
-  /* line 690, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__contact {
     margin-top: 0px;
   }
-  /* line 693, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__contact_list {
     height: 150px;
   }
 }
 
 @media (max-width: 1199px) {
-  /* line 697, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .stick {
     font-size: 9em;
   }
-  /* line 699, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .hack {
     color: #FFC701;
     margin: 4px 70px;
   }
-  /* line 702, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .text {
     font-size: 22px;
     position: relative;
     z-index: 4;
     margin: 4px 80px 0;
   }
-  /* line 707, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .medium-rectangle {
     width: 16px;
     height: 16px;
   }
-  /* line 710, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .dots {
     color: #FFF;
     text-decoration: none;
     font-size: 58px;
   }
-  /* line 714, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav {
     width: 100%;
     height: 640px;
   }
-  /* line 717, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_info {
     margin-right: 5px;
     width: 190px;
     height: 70px;
   }
-  /* line 721, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_info a {
     font-size: 20px;
   }
-  /* line 723, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_info-container {
     display: flex;
     float: left;
@@ -1508,114 +1330,90 @@ body {
     top: 130px;
     padding-left: 30px;
   }
-  /* line 730, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_photo {
     width: 360px;
     left: 5px;
     top: 25px;
   }
-  /* line 734, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-container {
     width: 580px;
     bottom: 140px;
     height: 425px;
   }
-  /* line 738, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-title-container {
     width: 40%;
   }
-  /* line 740, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-text {
     width: 95%;
     height: 30%;
   }
-  /* line 743, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-name {
     font-size: 40px;
     margin-top: 40px;
   }
-  /* line 746, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-text {
     color: #FFCA43;
     font-size: 13px;
     margin-top: 40px;
   }
-  /* line 750, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_two-blocks {
     position: relative;
     left: 620px;
     bottom: 395px;
   }
-  /* line 754, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_portfolio-container {
     border-radius: 25px;
     width: 195px;
     height: 255px;
   }
-  /* line 758, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_portfolio {
     font-size: 34px;
   }
-  /* line 760, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_cv-container {
     border-radius: 25px;
     width: 160px;
     height: 255px;
   }
-  /* line 764, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_cv {
     font-size: 34px;
   }
-  /* line 766, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__welcome {
     padding-left: 30px;
   }
-  /* line 768, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__welcome_title-container {
     width: 500px;
   }
-  /* line 770, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__welcome_title {
     font-size: 44px;
   }
-  /* line 772, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__skills {
     padding-left: 30px;
   }
-  /* line 774, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__skills_text-title {
     font-size: 42px;
   }
-  /* line 776, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__skills_text {
     font-size: 16px;
   }
-  /* line 778, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__skills_blocks-container {
     height: 255px;
     font-size: 18px;
   }
-  /* line 781, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__skills_blocks-html {
     margin-top: 5px;
   }
-  /* line 783, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__skills_blocks-sass {
     margin-top: 5px;
   }
-  /* line 785, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__skills_blocks-libraries {
     margin-top: 5px;
   }
-  /* line 787, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__skills_blocks-git {
     margin-top: 5px;
   }
-  /* line 789, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__skills_blocks-other {
     margin-top: 5px;
   }
-  /* line 791, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience {
     margin-top: 105px;
     padding-left: 30px;
@@ -1626,35 +1424,29 @@ body {
     height: 965px;
     align-content: flex-start;
   }
-  /* line 800, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_hackaton {
     width: 70%;
     height: 30%;
   }
-  /* line 803, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_hackaton-title {
     width: 271px;
     height: 95px;
     color: #7841FF;
     font-size: 32px;
   }
-  /* line 808, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_hackaton-title span {
     color: #7841FF;
     font-size: 32px;
   }
-  /* line 811, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_hackaton-text {
     width: 350px;
     color: #7841FF;
     font-size: 17px;
   }
-  /* line 815, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_case {
     width: 25%;
     height: 25%;
   }
-  /* line 818, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_other1 {
     width: 30%;
     height: 30%;
@@ -1664,20 +1456,16 @@ body {
     margin-top: 7px;
     margin-left: 80px;
   }
-  /* line 826, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_shogushi {
     width: 60%;
     height: 30%;
   }
-  /* line 829, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_shogushi-title {
     font-size: 30px;
   }
-  /* line 831, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_shogushi-title span {
     font-size: 40px;
   }
-  /* line 833, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_other2 {
     width: 30%;
     height: 30%;
@@ -1686,11 +1474,9 @@ body {
     margin-top: 7px;
     margin-left: 80px;
   }
-  /* line 840, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__contact_list {
     height: 140px;
   }
-  /* line 842, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__contact_list-links {
     text-decoration: none;
     color: #FFF;
@@ -1699,17 +1485,14 @@ body {
 }
 
 @media (max-width: 991px) {
-  /* line 848, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_info-container {
     display: none;
   }
-  /* line 850, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   header {
     display: flex;
     justify-content: flex-end;
     padding: 20px 20px 0 0;
   }
-  /* line 854, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .menu-btn {
     width: 30px;
     height: 30px;
@@ -1717,7 +1500,6 @@ body {
     z-index: 2;
     overflow: hidden;
   }
-  /* line 860, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .menu-btn span {
     width: 30px;
     height: 2px;
@@ -1729,15 +1511,12 @@ body {
     transition: all 0.5s;
     border-radius: 30px;
   }
-  /* line 870, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .menu-btn span:nth-of-type(2) {
     top: calc(50% - 7px);
   }
-  /* line 872, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .menu-btn span:nth-of-type(3) {
     top: calc(50% + 7px);
   }
-  /* line 874, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .menu {
     position: fixed;
     top: 0;
@@ -1749,70 +1528,56 @@ body {
     transform: translateX(-100%);
     transition: transform 0.5s;
   }
-  /* line 884, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .menu.active {
     transform: translateX(0);
   }
-  /* line 887, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .menu li {
     list-style-type: none;
   }
-  /* line 891, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .menu-btn.active span:nth-of-type(1) {
     display: none;
   }
-  /* line 893, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .menu-btn.active span:nth-of-type(2) {
     top: 50%;
     transform: translate(-50%, 0%) rotate(45deg);
   }
-  /* line 896, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .menu-btn.active span:nth-of-type(3) {
     top: 50%;
     transform: translate(-50%, 0%) rotate(-45deg);
   }
-  /* line 899, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav {
     width: 100%;
     height: 685px;
   }
-  /* line 902, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about {
     justify-content: space-evenly;
   }
-  /* line 904, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_container {
     margin-top: 10px;
   }
-  /* line 906, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_photo {
     top: 0px;
   }
-  /* line 908, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-container {
     width: 550px;
     height: 625px;
     margin-left: 420px;
     bottom: 350px;
   }
-  /* line 913, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-title-container {
     margin: 0;
   }
-  /* line 915, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-name {
     height: 45px;
     margin-top: 0px;
     margin-left: 50px;
   }
-  /* line 919, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-text {
     font-size: 13px;
     margin-top: 0px;
     width: 480px;
     height: 300px;
   }
-  /* line 924, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-text-hidden {
     color: #FFCA43;
     font-weight: 400;
@@ -1820,49 +1585,39 @@ body {
     font-size: 13px;
     margin-top: 0px;
   }
-  /* line 930, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_about-btn-plus {
     display: none;
   }
-  /* line 932, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_two-blocks {
     left: 5px;
     bottom: 620px;
   }
-  /* line 935, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_portfolio-container {
     height: 270px;
   }
-  /* line 937, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__nav_cv-container {
     height: 270px;
   }
-  /* line 939, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__welcome_title {
     font-size: 42px;
   }
-  /* line 941, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__welcome_title-container {
     width: 485px;
     height: 125px;
   }
-  /* line 944, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience {
     margin-top: 50px;
     height: 795px;
     padding-left: 15px;
   }
-  /* line 948, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_hackaton {
     width: 700px;
     height: 280px;
   }
-  /* line 951, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_case {
     width: 260px;
     height: 230px;
   }
-  /* line 954, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_other1 {
     width: 280px;
     height: 250px;
@@ -1870,65 +1625,50 @@ body {
     margin-top: 7px;
     margin-left: 85px;
   }
-  /* line 960, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_shogushi {
     width: 595px;
     height: 250px;
   }
-  /* line 963, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_shogushi-title {
     width: 380px;
   }
-  /* line 965, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_shogushi-title span {
     font-size: 34px;
   }
-  /* line 967, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__experience_other2 {
     width: 280px;
     height: 250px;
     margin-top: 7px;
     margin-left: 85px;
   }
-  /* line 972, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__skills {
     width: 100%;
     height: 305px;
     padding-left: 10px;
   }
-  /* line 976, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__skills_blocks-html {
     margin-top: 5px;
   }
-  /* line 978, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__skills_blocks-sass {
     margin: 5px 5px 0 0;
   }
-  /* line 980, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__skills_blocks-libraries {
     margin: 5px 5px 0 0;
   }
-  /* line 982, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__skills_blocks-git {
     margin-top: 5px;
   }
-  /* line 984, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__skills_blocks-other {
     margin-top: 5px;
   }
-  /* line 987, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__contact_list {
     height: 115px;
   }
-  /* line 989, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .section__contact_list-links {
     font-size: 28px;
   }
-  /* line 991, ../../../../../../../../../../../../../Users/fozyn/Desktop/Files/CV/src/sass/style.sass */
   .medium-rectangle {
     width: 13px;
     height: 13px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
