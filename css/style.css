@@ -324,7 +324,7 @@ body { font-family: 'Poppins', sans-serif; display: block; background-color: #12
 
 .medium-rectangle { width: 20px; height: 20px; transform: rotate(45deg); background-color: #FFF; position: relative; }
 
-.stick-hackaton { font-size: 12em; width: 0.35em; height: 0.35em; margin-bottom: 20px; border: 0.07em solid #000; position: relative; border-radius: 50%; /* z-index: 3; */ box-shadow: 0 5px 10px black; }
+.stick-hackaton { font-size: 11em; width: 0.35em; height: 0.35em; margin-bottom: 20px; border: 0.07em solid #000; position: relative; border-radius: 50%; /* z-index: 3; */ box-shadow: 0 5px 10px black; }
 
 .stick-hackaton.hovered::before, .stick-hackaton.hovered::after { opacity: 1; }
 
@@ -334,7 +334,7 @@ body { font-family: 'Poppins', sans-serif; display: block; background-color: #12
 
 .text { color: #7841FF; font-size: 32px; position: relative; z-index: 4; margin: 2px 78px 0; }
 
-.hack { color: #FFC701; width: 225px; font-size: 25px; margin: 8px 82px 0; }
+.hack { color: #FFC701; width: 225px; font-size: 24px; margin: 6px 70px 0; }
 
 .stick-shogushi { font-size: 10em; width: 0.35em; height: 0.35em; margin-bottom: 20px; border: 0.07em solid #000; position: relative; border-radius: 50%; /* z-index: 3; */ box-shadow: 0 5px 10px black; }
 
